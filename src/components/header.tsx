@@ -46,7 +46,7 @@ const Header = ({ social }: HeaderProps) => {
         initial={false}
         animate={isActive ? "open" : "closed"}
         variants={variants}
-        className={`absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)]  bg-white opacity-80 ${
+        className={`absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-white opacity-90 ${
           isMobile ? "opacity-100" : "opacity-50"
         }`}
       >
