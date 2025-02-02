@@ -8,6 +8,8 @@ import { OpacityTextReveal, SlideIn, Transition } from "./ui/Transitions";
 import { formatDate } from "../utils";
 import Image from "next/image";
 import atharv from "public/atharv_linkedin_new.jpg";
+import { TextReveal } from "./ui/Typography";
+import Link from "next/link";
 interface AboutProps {
   about: IAbout;
   timeline: Timeline[];
@@ -50,6 +52,15 @@ const About = ({ about, timeline }: AboutProps) => {
               </Transition>
             ))}
           </div> */}
+          <Link
+            href={"https://atharvpatwardhan.github.io/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.button className="p-4 text-lg text-white rounded-lg border">
+              <TextReveal>Resume</TextReveal>
+            </motion.button>
+          </Link>
         </div>
       </div>
       <div className="relative">

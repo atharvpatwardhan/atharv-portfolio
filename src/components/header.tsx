@@ -61,38 +61,75 @@ const Header = ({ social }: HeaderProps) => {
                     className="my-2"
                     onClick={() => setIsActive(false)}
                   >
-                    <Link
-                      href={href}
-                      className="flex flex-wrap overflow-hidden"
-                    >
-                      <motion.div
-                        variants={perspective}
-                        custom={i}
-                        initial="initial"
-                        animate="enter"
-                        whileHover="whileHover"
-                        whileTap="whileHover"
-                        exit="exit"
-                        className="text-5xl text-background flex items-center justify-between"
+                    {link.title === "Resume" ? (
+                      <Link
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-wrap overflow-hidden"
                       >
-                        <motion.span
-                          variants={{
-                            initial: { x: -20 },
-                            whileHover: { x: 0 },
-                          }}
+                        <motion.div
+                          variants={perspective}
+                          custom={i}
+                          initial="initial"
+                          animate="enter"
+                          whileHover="whileHover"
+                          whileTap="whileHover"
+                          exit="exit"
+                          className="text-5xl text-background flex items-center justify-between"
                         >
-                          <ArrowUpRight />
-                        </motion.span>
-                        <motion.span
-                          variants={{
-                            initial: { x: 0 },
-                            whileHover: { x: 20 },
-                          }}
+                          <motion.span
+                            variants={{
+                              initial: { x: -20 },
+                              whileHover: { x: 0 },
+                            }}
+                          >
+                            <ArrowUpRight />
+                          </motion.span>
+                          <motion.span
+                            variants={{
+                              initial: { x: 0 },
+                              whileHover: { x: 20 },
+                            }}
+                          >
+                            {title}
+                          </motion.span>
+                        </motion.div>
+                      </Link>
+                    ) : (
+                      <Link
+                        href={href}
+                        className="flex flex-wrap overflow-hidden"
+                      >
+                        <motion.div
+                          variants={perspective}
+                          custom={i}
+                          initial="initial"
+                          animate="enter"
+                          whileHover="whileHover"
+                          whileTap="whileHover"
+                          exit="exit"
+                          className="text-5xl text-background flex items-center justify-between"
                         >
-                          {title}
-                        </motion.span>
-                      </motion.div>
-                    </Link>
+                          <motion.span
+                            variants={{
+                              initial: { x: -20 },
+                              whileHover: { x: 0 },
+                            }}
+                          >
+                            <ArrowUpRight />
+                          </motion.span>
+                          <motion.span
+                            variants={{
+                              initial: { x: 0 },
+                              whileHover: { x: 20 },
+                            }}
+                          >
+                            {title}
+                          </motion.span>
+                        </motion.div>
+                      </Link>
+                    )}
                   </div>
                 );
               })}
@@ -187,6 +224,10 @@ const navLinks = [
   {
     title: "Contact",
     href: "#contact",
+  },
+  {
+    title: "Resume",
+    href: "https://atharvpatwardhan.github.io/",
   },
 ];
 

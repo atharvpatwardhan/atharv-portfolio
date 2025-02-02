@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ChatbotDialogue from "./ChatbotDialogue";
+import { TextReveal } from "../ui/Typography";
 
 const ChatbotButton = ({}: {}) => {
   const [showChat, setShowChat] = useState(false);
@@ -13,10 +14,9 @@ const ChatbotButton = ({}: {}) => {
     >
       <button
         onClick={() => setShowChat(true)}
-        className="rounded-xl hover:scale-110 transition duration-1000 flex gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white shadow-2xl hover:bg-gradient-to-r hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
+        className="rounded-xl flex gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white shadow-2xl hover:bg-gradient-to-r hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
       >
-        Chat with AI Atharv
-        {/* <Image src="/public/atharv-avatar.jpg" alt="" width={20} height={20} /> */}
+        <TextReveal>Chat with AI Atharv</TextReveal>
       </button>
       <ChatbotDialogue showChat={showChat} setShowChat={setShowChat} />
     </div>
