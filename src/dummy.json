@@ -1,0 +1,311 @@
+{
+  "about": {
+    "name": "Atharv Patwardhan",
+    "title": "Software Developer",
+    "subTitle": "I develop software, apply machine learning, and make data-driven decisions.",
+    "description": "I'm a software engineer based in New Jersey, USA. I love to learn new technologies and build meaningful things with them. I have a keen interest in Mathematics and am enthusiastic about building machine learning and deep learning solutions to solve real-world problems. I'm currently pursuing a double major in Computer Science and Mathematics from Rutgers University. If you're looking for someone with a passion for technology, collaborative spirit and a great sense of humour, I'm your guy! When I'm not coding, I enjoy playing Badminton, Chess and also have a liking for painting and music. Feel free to reach out to me if you have a cool project idea, or just want to chat!",
+    "quote": "A bit about me.",
+    "exp_year": "5",
+    "address": "Los Angeles , America",
+    "some_total": "90",
+    "phoneNumber": "+1-9528391901",
+    "contactEmail": "reach.to.atharv@gmail.com",
+    "avatar": {
+      "public_id": "portfolio3/1713995155677-122l5x.webp",
+      "url": "D:/Projects/portfolio3.0/src/app/atharv_linkedin_new.jpg"
+    },
+    "alternateAvatars": [
+      {
+        "_id": "676e772d8a9e1d0a8b0647ca",
+        "public_id": "portfolio3/1713996156944-1hro1b.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713996156944-1hro1b.webp"
+      }
+    ]
+  },
+  "usageMetrics": {
+    "visits": 0,
+    "downloads": 0
+  },
+  "_id": "65b3a22c01d900e96c4219ae",
+  "username": "portfolio3",
+  "email": "reach.to.atharv@gmail.com",
+  "role": "admin",
+  "timeline": [
+    {
+      "company_name": "Independence Education",
+      "summary": "Contributed to the development of a new social networking platform targeting niche communities.",
+      "sequence": 1,
+      "startDate": "2024-06-10T00:00:00.000Z",
+      "endDate": "2024-08-12T00:00:00.000Z",
+      "jobTitle": "Software Developer Intern",
+      "jobLocation": " Philadelphia, PA",
+      "bulletPoints": [
+        "Created a comprehensive data analytics dashboard that links to the Canvas student software for an Ed-Tech startup, leveraging TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights",
+        "\nEngineered a powerful chatbot prototype utilizing the GPT-3.5-turbo model and LangChain, integrating a Retrieval- Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance.",
+        "\nEmployed advanced data visualization techniques to present complex datasets in an intuitive manner, significantly enhancing user engagement and enabling data-driven decision-making for improved learning outcomes for both, learners and educators",
+        "\nEmployed advanced data visualization techniques to present complex datasets in an intuitive manner, significantly enhancing user engagement and enabling data-driven decision-making for improved learning outcomes for both, learners and educators"
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "65f1fe900556c3f887e9db94"
+    },
+    {
+      "company_name": "VIIE",
+      "summary": "Contributed to the development of a cloud-based SaaS platform for managing IT infrastructure.",
+      "sequence": 2,
+      "startDate": "2022-12-06T00:00:00.000Z",
+      "endDate": "2023-07-20T00:00:00.000Z",
+      "jobTitle": "Software Developer",
+      "jobLocation": "Remote",
+      "bulletPoints": [
+        "Developed microservices using Node.js and deployed them using Docker containers.Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
+        "\nSuccessfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
+        "\nSuccessfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
+        "\nActively engaged with stakeholders to gather requirements, provide progress updates, and incorporate feedback, ensuring the final product met or exceeded expectations."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "65f1fe4e0556c3f887e9db22"
+    },
+    {
+      "company_name": "FeynnLabs",
+      "summary": "Contributed to the development of a comprehensive CRM solution for enterprise clients.",
+      "sequence": 3,
+      "startDate": "2022-05-11T00:00:00.000Z",
+      "endDate": "2022-07-28T00:00:00.000Z",
+      "jobTitle": "Machine Learning Intern",
+      "jobLocation": "Remote",
+      "bulletPoints": [
+        "Piloted the successful implementation of diverse Machine Learning Models, including advanced techniques like LSTM, Multiple Linear Regression, and Support Vector Regression effectively to solve complex optimization challenges, resulting in enhanced operational efficiency and approximately 15% growth in revenue.",
+        "\nConducted data exploration and generated comprehensive reportsthat provided actionable insights, empowering stakeholders to make informed decisions and advance strategic initiatives",
+        "\nConducted an in-depth analysis of the electric vehicle market, identifying three major growth opportunities that prompted a strategic shift resulting in 25% more investment towards innovative EV initiatives over six months.",
+        "\nCollaborated effectively with cross-functional teams, including data scientists, engineers, and business analysts, to ensure the successful deployment of machine learning models. Facilitated knowledge sharing and fostered a collaborative environment to drive innovation and continuous improvement."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "65f1fe1e0556c3f887e9dab2"
+    }
+  ],
+  "skills": [
+    {
+      "enabled": true,
+      "name": "Python",
+      "sequence": 17,
+      "percentage": 87,
+      "image": {
+        "public_id": "1706288734207-4rlz3m",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288734207-4rlz3m",
+        "_id": "65b3e661b48589dfcae187f8"
+      },
+      "_id": "65b3e661b48589dfcae187f7"
+    },
+    {
+      "enabled": true,
+      "name": "Java",
+      "sequence": 16,
+      "percentage": 86,
+      "image": {
+        "public_id": "1706288708710-nrq74s",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s",
+        "_id": "65b3e645b48589dfcae187a3"
+      },
+      "_id": "65b3e645b48589dfcae187a2"
+    },
+    {
+      "enabled": true,
+      "name": "Docker",
+      "sequence": 16,
+      "percentage": 85,
+      "image": {
+        "public_id": "1706287155946-z2oybb",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287155946-z2oybb",
+        "_id": "65b3e034b48589dfcae182ce"
+      },
+      "_id": "65b3e034b48589dfcae182cd"
+    },
+    {
+      "enabled": true,
+      "name": "TypeScript",
+      "sequence": 15,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706287138776-slfc3e",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287138776-slfc3e",
+        "_id": "65b3e023b48589dfcae18289"
+      },
+      "_id": "65b3e023b48589dfcae18288"
+    },
+    {
+      "enabled": true,
+      "name": "SQL",
+      "sequence": 6,
+      "percentage": 90,
+      "image": {
+        "public_id": "1706287104739-pm8en",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287104739-pm8en",
+        "_id": "65b3e001b48589dfcae18246"
+      },
+      "_id": "65b3e001b48589dfcae18245"
+    },
+    {
+      "enabled": true,
+      "name": "Scikit-learn",
+      "sequence": 7,
+      "percentage": 92,
+      "image": {
+        "public_id": "1706286990341-tznh4",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286990341-tznh4",
+        "_id": "65b3df8fb48589dfcae18205"
+      },
+      "_id": "65b3df8fb48589dfcae18204"
+    },
+    {
+      "enabled": true,
+      "name": "MongoDB",
+      "sequence": 13,
+      "percentage": 70,
+      "image": {
+        "public_id": "1706286966065-p2yrx9",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286966065-p2yrx9",
+        "_id": "65b3df76b48589dfcae181c6"
+      },
+      "_id": "65b3df76b48589dfcae181c5"
+    },
+    {
+      "enabled": true,
+      "name": "AWS",
+      "sequence": 9,
+      "percentage": 70,
+      "image": {
+        "public_id": "1706286941212-chpzl",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286941212-chpzl",
+        "_id": "65b3df5db48589dfcae18189"
+      },
+      "_id": "65b3df5db48589dfcae18188"
+    },
+    {
+      "enabled": true,
+      "name": "Git",
+      "sequence": 7,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286913147-nwiky8",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286913147-nwiky8",
+        "_id": "65b3df41b48589dfcae1814e"
+      },
+      "_id": "65b3df41b48589dfcae1814d"
+    },
+    {
+      "enabled": true,
+      "name": "Javascript",
+      "sequence": 3,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706288679775-y4qwn3",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288679775-y4qwn3",
+        "_id": "65b3e628b48589dfcae18750"
+      },
+      "_id": "65b3df24b48589dfcae18114"
+    },
+    {
+      "enabled": true,
+      "name": "Spring Boot",
+      "sequence": 12,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286842731-r0eyn",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286842731-r0eyn",
+        "_id": "65b3defbb48589dfcae180de"
+      },
+      "_id": "65b3defbb48589dfcae180dd"
+    },
+    {
+      "enabled": true,
+      "name": "Github",
+      "sequence": 11,
+      "percentage": 95,
+      "image": {
+        "public_id": "1706286821409-21cuqs",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286821409-21cuqs",
+        "_id": "65b3dee5b48589dfcae180a9"
+      },
+      "_id": "65b3dee5b48589dfcae180a8"
+    }
+  ],
+  "projects": [
+    {
+      "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/LinkedOut-AI-Job-Board",
+      "title": "AI Job Board",
+      "sequence": 14,
+      "image": {
+        "public_id": "1706285511679-xe7r9t",
+        "url": "../public/project6.jpeg"
+      },
+      "description": "Developed an AI Job Board leveraging data from US Bureau of Labor Statistics. Innovated a variety of useful features including a salary prediction model with 85% accuracy, personalized job recommendations using cosine similarity and user recommendation using user-based collaborative filtering. Implemented an interactive dashboard using the plotly library to provide useful insights for users to explore the job market and career opportunities.",
+      "techStack": [
+        "Python ",
+        " Numpy ",
+        " Scikit-learn",
+        " Streamlit ",
+        " Plotly "
+      ],
+      "_id": "65b3d9c8d017f6b49c778ca7",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/Autonomous-Driving-Model",
+      "title": "Autonomous Driving Model",
+      "sequence": 15,
+      "image": {
+        "public_id": "1706285468702-igx05q",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+      },
+      "description": "Implemented a convolutional neural network model based on Nvidia's End-to-End Learning for self driving cars paper. Used the Udacity car simulator for training and testing the model.",
+      "techStack": ["Tensorflow ", " Scikit-learn", "OpenCV", "Python"],
+      "_id": "65b3d99dd017f6b49c778c86",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/Clash-Royale-Analytics-Dashboard",
+      "title": "Clash Royale Analytics Dashboard",
+      "sequence": 13,
+      "image": {
+        "public_id": "1706285431821-3lfg2r",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+      },
+      "description": "Developed an analytics dashboard using the panel library to analyze over 13 Gigabytes of data from the online strategy game ‘Clash Royale’. Implemented algorithms such as k-means clustering to provide insights such as elixir usage, card usage by arena, and much more.",
+      "techStack": ["Python", " Scikit-learn", " Numpy ", " Panel"],
+      "_id": "65b3d978d017f6b49c778c67",
+      "enabled": true
+    }
+  ],
+  "social_handles": [
+    {
+      "platform": "LinkedIn",
+      "url": "http://www.linkedin.com/in/tehseen01",
+      "image": {
+        "public_id": "1708718263294-2lfj67.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718263294-2lfj67.webp"
+      },
+      "enabled": true,
+      "_id": "65b3e99beb20546ae6d463c2"
+    },
+    {
+      "enabled": true,
+      "platform": "Github",
+      "url": "https://github.com/atharvpatwardhan",
+      "image": {
+        "public_id": "1708718328750-d4jsq.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718328750-d4jsq.webp"
+      },
+      "_id": "65b3e47cb48589dfcae185bd"
+    }
+  ],
+  "createdAt": "2024-01-26T12:14:36.514Z",
+  "updatedAt": "2024-05-08T17:53:29.758Z",
+  "__v": 74,
+  "refreshToken": ""
+}
