@@ -15,6 +15,7 @@ import p2 from "public/project3.jpeg";
 import p3 from "public/project6.jpeg";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
+import { useMediaQuery } from "@/utils/useMediaQuery";
 
 interface ProjectsProps {
   projects: Project[];
@@ -68,6 +69,7 @@ export default Projects;
 const Card = ({ title, image, description, githuburl, techStack }: Project) => {
   const [hover, setHover] = useState(false);
   const { setVariant } = useVariants();
+  const isMobile = useMediaQuery("(max-width:768px)");
 
   const mouseEnter = () => {
     setHover(true);
@@ -85,14 +87,24 @@ const Card = ({ title, image, description, githuburl, techStack }: Project) => {
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
-      <div className="absolute top-2 right-2 w-full h-full flex justify-end md:hidden">
+      {/* <div className="absolute top-2 right-2 w-full h-full flex justify-end md:hidden">
         <div className="bg-white size-8 rounded-full text-black grid place-items-center">
           <ArrowUpRight />
         </div>
-      </div>
+      </div> */}
       <div className="md:py-8 relative">
-        <motion.div className="flex justify-between items-center max-md:hidden">
-          <p className="text-sm md:text-xl font-semibold max-md:opacity-0 px-5">
+        <motion.div
+          className={`${
+            isMobile ? "flex flex-col" : "flex justify-between items-center"
+          } `}
+        >
+          <p
+            className={`${
+              isMobile
+                ? "flex gap-2 items-center justify-center max-md:px-4 mt-10 my-auto"
+                : "text-sm md:text-xl font-semibold max-md:opacity-0 px-5"
+            }`}
+          >
             {title}
           </p>
           <Link
@@ -106,10 +118,18 @@ const Card = ({ title, image, description, githuburl, techStack }: Project) => {
             </span>
           </Link>
         </motion.div>
-        <div className="my-auto mt-20 p-2 text-lg align-middle">
+        <div
+          className={`${
+            isMobile ? "hidden" : ""
+          } my-auto mt-12 p-5 align-middle`}
+        >
           {description}
         </div>
-        <div className="py-3 flex items-center gap-4 p-2">
+        <div
+          className={`${
+            isMobile ? "hidden" : ""
+          } py-3 flex items-center gap-4 p-2`}
+        >
           {techStack.map((tech, index) => (
             <span
               key={index}

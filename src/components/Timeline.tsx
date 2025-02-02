@@ -17,7 +17,7 @@ const Timeline = ({ timeline }: ExperienceProps) => {
   const [hover, setHover] = useState<number | null>(null);
 
   return (
-    <div className="relative pb-20">
+    <div className="relative pb-20" id="experience">
       <span className="blob absolute top-[20%] left-0 w-1/3 h-5/6 blur-[100px] -z-10" />
       <SectionHeading className="pl-4 md:px-12 py-20">
         <SlideIn className="text-white/40">Work</SlideIn>

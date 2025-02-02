@@ -46,10 +46,12 @@ const Header = ({ social }: HeaderProps) => {
         initial={false}
         animate={isActive ? "open" : "closed"}
         variants={variants}
-        className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-white opacity-50"
+        className={`absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)]  bg-white opacity-80 ${
+          isMobile ? "opacity-100" : "opacity-50"
+        }`}
       >
         {isActive && (
-          <nav className="flex justify-between flex-col w-full h-full px-10 pt-[100px] pb-[50px]">
+          <nav className="flex justify-between flex-col w-full h-full px-10 pt-[100px] pb-[150px]">
             <div className="flex gap-2 flex-col">
               {navLinks.map((link, i) => {
                 const { title, href } = link;
@@ -177,6 +179,10 @@ const navLinks = [
   {
     title: "Projects",
     href: "#projects",
+  },
+  {
+    title: "Experience",
+    href: "#experience",
   },
   {
     title: "Contact",
