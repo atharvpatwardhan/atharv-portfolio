@@ -76,7 +76,7 @@ const ChatbotDialogue = ({
                   ) : (
                     <li key={m.id} className="flex flex-row">
                       <div
-                        className={`rounded-xl p-4 shadow-md flex w-3/4 bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 text-white`}
+                        className={`rounded-xl p-4 shadow-md flex w-3/4 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white`}
                       >
                         <p className="">{m.content}</p>
                       </div>

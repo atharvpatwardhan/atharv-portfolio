@@ -14,7 +14,7 @@ const ChatbotButton = ({}: {}) => {
     >
       <button
         onClick={() => setShowChat(true)}
-        className="rounded-xl flex gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white shadow-2xl hover:bg-gradient-to-r hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
+        className="rounded-xl flex gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white shadow-2xl hover:bg-gradient-to-br hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
       >
         <TextReveal>Chat with AI Atharv</TextReveal>
       </button>
