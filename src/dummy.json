@@ -3,15 +3,15 @@
     "name": "Atharv Patwardhan",
     "title": "Software Developer",
     "subTitle": "I develop software, apply machine learning, and make data-driven decisions.",
-    "description": "I'm a software engineer based in New Jersey, USA. I love to learn new technologies and build meaningful things with them. I have a keen interest in Mathematics and am enthusiastic about building machine learning and data science solutions to solve problems. I'm currently pursuing a Bachelor's degree double majoring in Computer Science and Mathematics from Rutgers University. If you're looking for someone with a passion for technology, collaborative spirit and a great sense of humour, I'm your guy! When I'm not coding, I enjoy playing Badminton, Chess and also have a liking for painting and music. Feel free to reach out to me if you have a cool project idea, or just want to chat!",
+    "description": "I'm a Software Engineer based in New Jersey, USA with a passion for exploring new technologies and creating impactful solutions. I have a deep interest in Mathematics and enjoy developing machine learning and data science applications to tackle real-world challenges. Currently, I’m working towards a Bachelor's degree, double majoring in Computer Science and Mathematics at Rutgers University. If you’re looking for someone who is enthusiastic about technology, loves collaborating, and has a good sense of humor, I’m your guy! When I'm not coding, I enjoy playing Badminton, Chess and also have a liking for painting and music. Feel free to reach out to me if you have a cool project idea, or just want to chat!",
     "quote": "A bit about me.",
-    "exp_year": "5",
-    "address": "Los Angeles , America",
-    "some_total": "90",
-    "phoneNumber": "+1-9528391901",
+    "exp_year": "",
+    "address": "",
+    "some_total": "",
+    "phoneNumber": "+1 111-111-1111",
     "contactEmail": "reach.to.atharv@gmail.com",
     "avatar": {
-      "public_id": "portfolio3/1713995155677-122l5x.webp",
+      "public_id": "",
       "url": "D:/Projects/portfolio3.0/src/app/atharv_linkedin_new.jpg"
     },
     "alternateAvatars": [
@@ -233,6 +233,26 @@
     }
   ],
   "projects": [
+    {
+      "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/Modalytics",
+      "title": "Modalytics",
+      "sequence": 1,
+      "image": {
+        "public_id": "1706285511679-xe7r9t",
+        "url": "../public/project6.jpeg"
+      },
+      "description": "Modalytics is a machine learning model evaluation platform that automates model testing and provides performance metrics on AWS. It allows users to upload models and datasets, receive evaluation results, and visualize performance through an interactive dashboard.",
+      "techStack": [
+        "Python ",
+        " AWS ",
+        "Docker",
+        " Streamlit ",
+        " Scikit-learn"
+      ],
+      "_id": "65b3d9c8d017f6b49c778ca7",
+      "enabled": true
+    },
     {
       "liveurl": "#",
       "githuburl": "https://github.com/atharvpatwardhan/LinkedOut-AI-Job-Board",
