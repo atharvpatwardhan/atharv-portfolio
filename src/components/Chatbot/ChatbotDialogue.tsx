@@ -4,6 +4,11 @@ import { useChat } from "ai/react";
 import { useRef, useEffect } from "react";
 import "./chatbot.css";
 import { useMediaQuery } from "@/utils/useMediaQuery";
+import { IoIosArrowDown } from "react-icons/io";
+import avatar from "public/chatbot_avatar.jpeg";
+import Image from "next/image";
+import { TextReveal } from "../ui/Typography";
+import { motion } from "motion/react";
 
 const ChatbotDialogue = ({
   showChat,
@@ -40,12 +45,17 @@ const ChatbotDialogue = ({
     >
       <div className="h- w-96 border rounded-lg">
         <div className=" flex justify-center items-center border-b">
-          <button
-            className="left-1 absolute p-5"
-            onClick={() => setShowChat(false)}
-          >
-            X
+          <button onClick={() => setShowChat(false)}>
+            {" "}
+            <IoIosArrowDown
+              color="white"
+              className={`absolute left-5 top-3 ${
+                !showChat && "rotate-180 transition duration-500"
+              }`}
+              size={25}
+            />
           </button>
+
           <h1 className="text-center text-white text-xl p-2">AI Atharv</h1>
         </div>
         <div className="h-full">
@@ -54,9 +64,18 @@ const ChatbotDialogue = ({
               ref={chatParent}
               className="p-4 flex-grow bg-muted/50 rounded-lg overflow-y-scroll no-scrollbar h-96 flex flex-col gap-4"
             >
-              <li className="flex flex-row">
+              <li className="flex flex-row gap-2">
+                <div className="rounded-full items-center">
+                  <Image
+                    src={avatar}
+                    alt="Avatar"
+                    height={35}
+                    width={35}
+                    className="rounded-full"
+                  />
+                </div>
                 <div
-                  className={`rounded-xl p-4 shadow-md flex w-3/4 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white`}
+                  className={`rounded-md p-4 shadow-md flex w-3/4 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white`}
                 >
                   <p>
                     Hi there! {"I'm"} AI Atharv, {"Atharv's"} chatbot 🤖. Feel
@@ -69,14 +88,24 @@ const ChatbotDialogue = ({
                 <div key={index}>
                   {m.role === "user" ? (
                     <li key={m.id} className="flex flex-row-reverse">
-                      <div className="rounded-xl p-4 shadow-md flex border text-white">
+                      <div className="rounded-md p-4 shadow-md flex border text-white bg-slate-800">
                         <p className="">{m.content}</p>
                       </div>
                     </li>
                   ) : (
-                    <li key={m.id} className="flex flex-row">
+                    <li key={m.id} className="flex flex-row gap-2">
+                      <div className="rounded-full items-center">
+                        <Image
+                          src={avatar}
+                          alt="Avatar"
+                          height={35}
+                          width={35}
+                          className="rounded-full"
+                        />
+                      </div>
+
                       <div
-                        className={`rounded-xl p-4 shadow-md flex w-3/4 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white`}
+                        className={`rounded-md p-4 shadow-md flex w-3/4 h-auto bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white`}
                       >
                         <p className="">{m.content}</p>
                       </div>
@@ -99,12 +128,12 @@ const ChatbotDialogue = ({
                 value={input}
                 onChange={handleInputChange}
               />
-              <button
-                className="ml-2 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white p-2 rounded-xl"
+              <motion.button
+                className="ml-2 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white p-2 rounded"
                 type="submit"
               >
-                Send
-              </button>
+                <TextReveal>Send</TextReveal>
+              </motion.button>
             </form>
           </section>
         </div>

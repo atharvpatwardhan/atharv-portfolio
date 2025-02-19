@@ -40,14 +40,16 @@ const Timeline = ({ timeline }: ExperienceProps) => {
               <div className="max-md:text-sm max-md:flex flex-col text-foreground/50">
                 <span className="italic">
                   {formatDate(exp.startDate).month +
-                    ", " +
+                    " " +
                     formatDate(exp.startDate).year}
                 </span>
                 <span className="max-md:hidden">{" - "}</span>
                 <span className="italic">
-                  {formatDate(exp.endDate).month +
-                    ", " +
-                    formatDate(exp.endDate).year}
+                  {exp.endDate > new Date().toISOString()
+                    ? "Present"
+                    : formatDate(exp.endDate).month +
+                      " " +
+                      formatDate(exp.endDate).year}
                 </span>
               </div>
             </div>
@@ -60,7 +62,7 @@ const Timeline = ({ timeline }: ExperienceProps) => {
               transition={{ duration: 0.5 }}
               className="overflow-hidden"
             >
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside p-6">
                 {exp.bulletPoints.map((point, index) => (
                   <li key={index} className="text-foreground/80 max-md:text-sm">
                     {point}

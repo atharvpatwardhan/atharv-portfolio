@@ -40,18 +40,6 @@ const About = ({ about, timeline }: AboutProps) => {
           <OpacityTextReveal>{about.description}</OpacityTextReveal>
         </Transition>
         <div className="pt-10">
-          {/* <div className="py-10 overflow-hidden grid w-full">
-            {education.map((edu, index) => (
-              <Transition key={edu._id}>
-                <TimelineCard
-                  index={index}
-                  activeIndex={activeIndex}
-                  setActiveIndex={setActiveIndex}
-                  timeline={edu}
-                />
-              </Transition>
-            ))}
-          </div> */}
           <Link
             href={"https://atharvpatwardhan.github.io/"}
             target="_blank"

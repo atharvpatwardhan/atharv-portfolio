@@ -32,6 +32,16 @@ Atharv Patwardhan is a highly skilled and versatile software developer with exte
 
 ### Professional Experience
 
+Rutgers University 
+Machine Learning Research Assistant 
+Camden, New Jersey 
+Dec 2024 - Present 
+• Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein 
+families, achieving a 94% accuracy. 
+• Processed and transformed 12,000+ data points from FASTA files into pandas dataframes, optimizing data preprocessing for 
+seamless model training. 
+• Developed a web-based tool integrating the model to provide real-time classification for users.
+
 **Software Developer Intern at Independence Education, Philadelphia, PA (June 2024 - Present)**
 Atharv is currently interning at Independence Education, an Ed-Tech startup, where he has developed an educational dashboard. Utilizing technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js, he has created a seamless user experience. His role involves collaborating across cross-functional teams to ensure the smooth development of the application.
 
@@ -61,8 +71,9 @@ Atharv is a recipient of the Philadelphia Philanthropic Society for Information 
 
 Atharv's technical skills encompass a wide range of programming languages, databases, and tools/frameworks:
 
-- **Languages:** Python, Java, JavaScript, TypeScript, C++, HTML, CSS
-- **Databases:** MySQL, Oracle SQL Server, MongoDB, SQLite
-- **Tools and Frameworks:** React.js, Vite.js, Next.js, Tailwind CSS, Node.js, NPM, Redux, Git, Linux, Heroku, Netlify, Vercel, Postman, Spring Boot, Flask, Data Structures, Algorithms, JSON, REST API, Microservices, Sanity CMS
+Languages: Python, Java, JavaScript, Typescript, C, C++, HTML, CSS 
+Database: SQL, MongoDB, SQLite 
+Tools and Frameworks: Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, Matplotlib, Holoviews, Hvplot, Seaborn, 
+Git, Streamlit, Spring Boot, Flask, JSON, REST API, Docker, Fast API, Statistics, Big Data Algorithms, AWS 
 
 Atharv Patwardhan's diverse experience and technical expertise make him a valuable asset in the field of software development, capable of tackling complex challenges and delivering high-quality solutions.

@@ -1,8 +1,8 @@
 "use client";
-import Image from "next/image";
 import React, { useState } from "react";
 import ChatbotDialogue from "./ChatbotDialogue";
 import { TextReveal } from "../ui/Typography";
+import { motion } from "motion/react";
 
 const ChatbotButton = ({}: {}) => {
   const [showChat, setShowChat] = useState(false);
@@ -12,12 +12,12 @@ const ChatbotButton = ({}: {}) => {
         showChat ? "translate-y-96" : "-translate-y-2 delay-100"
       }`}
     >
-      <button
+      <motion.button
         onClick={() => setShowChat(true)}
-        className="rounded-xl flex gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white hover:bg-gradient-to-br hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
+        className="rounded-xl flex items-center gap-2 p-5 border border-white z-0 bg-black bg-opacity-90 text-white hover:bg-gradient-to-br hover:from-blue-600 hover:via-purple-600 hover:to-orange-600"
       >
         <TextReveal>Chat with AI Atharv</TextReveal>
-      </button>
+      </motion.button>
       <ChatbotDialogue showChat={showChat} setShowChat={setShowChat} />
     </div>
   );

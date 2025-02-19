@@ -32,8 +32,25 @@
   "role": "admin",
   "timeline": [
     {
+      "company_name": "Rutgers University",
+      "summary": "",
+      "sequence": 1,
+      "startDate": "2024-12-10T00:00:00.000Z",
+      "endDate": "2025-05-12T00:00:00.000Z",
+      "jobTitle": "Machine Learning Research Assistant",
+      "jobLocation": " Philadelphia, PA",
+      "bulletPoints": [
+        "Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein families, achieving a 94% accuracy. ",
+        "\nProcessed and transformed 12,000+ data points from FASTA files into pandas dataframes, optimizing data preprocessing for seamless model training. ",
+        "\nDeveloped a web-based tool integrating the model to provide real-time classification for users."
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "1"
+    },
+    {
       "company_name": "Independence Education",
-      "summary": "Contributed to the development of a new social networking platform targeting niche communities.",
+      "summary": "",
       "sequence": 1,
       "startDate": "2024-06-10T00:00:00.000Z",
       "endDate": "2024-08-12T00:00:00.000Z",
@@ -47,15 +64,15 @@
       ],
       "forEducation": true,
       "enabled": true,
-      "_id": "65f1fe900556c3f887e9db94"
+      "_id": "2"
     },
     {
       "company_name": "VIIE",
-      "summary": "Contributed to the development of a cloud-based SaaS platform for managing IT infrastructure.",
+      "summary": "",
       "sequence": 2,
       "startDate": "2022-12-06T00:00:00.000Z",
       "endDate": "2023-07-20T00:00:00.000Z",
-      "jobTitle": "Software Developer",
+      "jobTitle": "Software Engineering Intern",
       "jobLocation": "Remote",
       "bulletPoints": [
         "Developed microservices using Node.js and deployed them using Docker containers.Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
@@ -65,11 +82,11 @@
       ],
       "forEducation": false,
       "enabled": true,
-      "_id": "65f1fe4e0556c3f887e9db22"
+      "_id": "3"
     },
     {
       "company_name": "FeynnLabs",
-      "summary": "Contributed to the development of a comprehensive CRM solution for enterprise clients.",
+      "summary": "",
       "sequence": 3,
       "startDate": "2022-05-11T00:00:00.000Z",
       "endDate": "2022-07-28T00:00:00.000Z",
@@ -83,7 +100,7 @@
       ],
       "forEducation": false,
       "enabled": true,
-      "_id": "65f1fe1e0556c3f887e9dab2"
+      "_id": "4"
     }
   ],
   "skills": [
