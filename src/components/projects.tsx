@@ -16,6 +16,7 @@ import p3 from "public/project6.jpeg";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { useMediaQuery } from "@/utils/useMediaQuery";
+import ProjectDialog from "./ProjectDialog";
 
 interface ProjectsProps {
   projects: Project[];
@@ -49,6 +50,16 @@ function Projects({ projects }: ProjectsProps) {
             <Card {...project} />
           </Transition>
         ))}
+        <AnimatePresence>
+          {selectedProject && (
+            <div className="rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col">
+              <ProjectDialog
+                selectedProject={selectedProject}
+                setSelectedProject={setSelectedProject}
+              />
+            </div>
+          )}
+        </AnimatePresence>
       </motion.div>
       <div className="grid place-items-center py-8">
         {filteredProjects.length > numProjectToShow && (
@@ -83,7 +94,7 @@ const Card = ({ title, image, description, githuburl, techStack }: Project) => {
   return (
     <motion.div
       layout
-      className="relative rounded-xl md:rounded-3xl overflow-hidden aspect-square bg-secondary/30 md:px-4"
+      className="relative rounded-xl md:rounded-3xl overflow-hidden aspect-square bg-secondary/30 md:px-4 cursor-pointer hover:scale-105 hover:transition-all hover:duration-1000"
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
@@ -118,7 +129,7 @@ const Card = ({ title, image, description, githuburl, techStack }: Project) => {
             </span>
           </Link>
         </motion.div>
-        <div
+        {/* <div
           className={`${
             isMobile ? "hidden" : ""
           } my-auto mt-12 p-5 align-middle`}
@@ -138,8 +149,15 @@ const Card = ({ title, image, description, githuburl, techStack }: Project) => {
               {tech}
             </span>
           ))}
-        </div>{" "}
+        </div>{" "} */}
       </div>
+      <img
+        src={image.url}
+        width={700}
+        height={500}
+        alt={title}
+        className="object-cover h-full w-full object-center rounded-xl md:rounded-t-3xl"
+      />
     </motion.div>
   );
 };

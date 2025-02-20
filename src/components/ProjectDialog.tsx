@@ -19,7 +19,7 @@ const ProjectDialog = ({
   return (
     <motion.div
       layoutId={selectedProject._id}
-      className="fixed inset-0 z-50 grid place-items-center"
+      className="fixed inset-0 z-50 grid place-items-center cursor-default"
       onClick={(e) => e.target === e.currentTarget && setSelectedProject(null)}
     >
       <div className="bg-black w-11/12 md:w-1/2 h-4/5 md:h-[90%] overflow-hidden rounded-xl">
@@ -44,9 +44,9 @@ const ProjectDialog = ({
                 <Link href={selectedProject.githuburl}>
                   <Github />
                 </Link>
-                <Link href={selectedProject.liveurl}>
+                {/* <Link href={selectedProject.liveurl}>
                   <ExternalLink />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="py-3 flex items-center gap-4">
@@ -59,12 +59,7 @@ const ProjectDialog = ({
                 </span>
               ))}
             </div>
-            <p className="text-white/50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, tempora. Officiis eveniet harum nemo sed sint
-              distinctio fugiat earum cumque aliquid in magnam nam odio
-              molestias architecto veniam, asperiores voluptates?
-            </p>
+            <p className="text-white/50">{selectedProject.description} </p>
           </div>
         </div>
       </div>

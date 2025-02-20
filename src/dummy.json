@@ -257,7 +257,7 @@
       "sequence": 1,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "../public/project6.jpeg"
+        "url": "/project6.jpeg"
       },
       "description": "Modalytics is a machine learning model evaluation platform that automates model testing and provides performance metrics on AWS. It allows users to upload models and datasets, receive evaluation results, and visualize performance through an interactive dashboard.",
       "techStack": [
@@ -267,7 +267,7 @@
         " Streamlit ",
         " Scikit-learn"
       ],
-      "_id": "65b3d9c8d017f6b49c778ca7",
+      "_id": "project1",
       "enabled": true
     },
     {
@@ -277,7 +277,7 @@
       "sequence": 14,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "../public/project6.jpeg"
+        "url": "/project1.jpeg"
       },
       "description": "Developed an AI Job Board leveraging data from US Bureau of Labor Statistics. Innovated a variety of useful features including a salary prediction model with 85% accuracy, personalized job recommendations using cosine similarity and user recommendation using user-based collaborative filtering. Implemented an interactive dashboard using the plotly library to provide useful insights for users to explore the job market and career opportunities.",
       "techStack": [
@@ -287,7 +287,7 @@
         " Streamlit ",
         " Plotly "
       ],
-      "_id": "65b3d9c8d017f6b49c778ca7",
+      "_id": "project2",
       "enabled": true
     },
     {
@@ -297,11 +297,11 @@
       "sequence": 15,
       "image": {
         "public_id": "1706285468702-igx05q",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+        "url": "/project3.jpeg"
       },
       "description": "Implemented a convolutional neural network model based on Nvidia's End-to-End Learning for self driving cars paper. Used the Udacity car simulator for training and testing the model.",
       "techStack": ["Tensorflow ", " Scikit-learn", "OpenCV", "Python"],
-      "_id": "65b3d99dd017f6b49c778c86",
+      "_id": "project3",
       "enabled": true
     },
     {
@@ -311,11 +311,11 @@
       "sequence": 13,
       "image": {
         "public_id": "1706285431821-3lfg2r",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+        "url": "/project2.jpeg"
       },
       "description": "Developed an analytics dashboard using the panel library to analyze over 13 Gigabytes of data from the online strategy game ‘Clash Royale’. Implemented algorithms such as k-means clustering to provide insights such as elixir usage, card usage by arena, and much more.",
       "techStack": ["Python", " Scikit-learn", " Numpy ", " Panel"],
-      "_id": "65b3d978d017f6b49c778c67",
+      "_id": "project4",
       "enabled": true
     }
   ],
