@@ -1,34 +1,8 @@
+## Introduction
 Atharv Patwardhan is a dynamic and ambitious young professional in the field of software development and machine learning, with a diverse portfolio of experiences that showcase his technical prowess, leadership skills, and commitment to innovation.
 
-At the core of Atharv's career is a strong academic foundation, currently pursuing a Bachelor of Science with a double major in Computer Science and Computational and Applied Mathematics at Rutgers University. His coursework has equipped him with a robust understanding of fundamental concepts such as Data Structures and Algorithms, Cloud Computing, and Operating Systems, complemented by advanced topics including Linear Algebra, Statistics, and Calculus. This academic background forms the bedrock of his technical expertise, enabling him to tackle complex challenges with confidence and creativity.
+He is currently pursuing a Bachelor of Science with a double major in Computer Science and Computational and Applied Mathematics at Rutgers University.
 
-Atharv's professional journey began with pivotal internships that provided him with hands-on experience across different domains. His role as a Software Engineering Intern at VIIE, Mumbai, stands out for his leadership in developing the official VIIE Web Application. Utilizing cutting-edge technologies like React.js, Next.js, and Tailwind CSS, he ensured the application's scalability, performance, and maintainability while delivering a rich user experience. Atharv's ability to manage a 15-member cross-functional team underscores his adeptness in fostering collaboration and driving projects to successful completion.
-
-His tenure as a Machine Learning Intern at Feynn Labs further highlights his versatility and problem-solving skills. Here, Atharv implemented a variety of Machine Learning models, from LSTM to Support Vector Regression, demonstrating his capability to solve intricate real-world challenges and derive actionable insights from data. His involvement in market analysis and comprehensive report generation exemplifies his holistic approach to data-driven decision-making, pivotal in driving strategic initiatives forward.
-
-Atharv's entrepreneurial spirit and technical acumen shine through his project endeavors. He spearheaded the development of "Social Verse," a full-stack social media application designed to rival Instagram's functionality. This project not only showcased his proficiency in integrating APIs and implementing real-time communication but also emphasized his commitment to enhancing user engagement through advanced filtering options and personalized content curation. Similarly, his work on "Wanderlust Journeys," a MERN stack travel blog application, highlights his ability to implement robust features like CRUD operations, user authentication, and multimedia content management.
-
-Beyond technical skills, Atharv has garnered recognition for his achievements, including the PHISIM Award from the Philadelphia Philanthropic Society for Information Management Foundation Inc. and securing 2nd place in the VSIT Coding Competition 2022. These accolades underscore his dedication to excellence and his contributions to the tech community.
-
-In addition to his technical prowess, Atharv possesses a rich skill set encompassing various programming languages (Python, Java, JavaScript, Typescript, C++), databases (MySQL, MongoDB, SQLite), and frameworks (React.js, Node.js, Redux). Also interested in Machine Learning. Machine learning framework stack includes Langchain, Pytorch, Keras, Pandas. His familiarity with agile project management techniques and tools like Git, Linux, and Heroku reflects his adaptability and readiness to navigate diverse project environments.
-
-Looking ahead, Atharv Patwardhan is poised to make significant strides in the tech industry, driven by his passion for innovation, leadership acumen, and a strong foundation in both software development and machine learning. His career trajectory exemplifies a blend of technical expertise, entrepreneurial spirit, and a commitment to driving impactful change through technology.
-
-When Atharv is not coding, he enjoys playing Badminton, Chess and also has a liking for painting and music.
-
-Atharv lives in New Jersey,USA.
-
-Atharv's favourite color is red.
-
-PHISIM is a bridge to the community for Philadelphia area Information Technology leaders. They are a non-profit organization that focuses on charitable activities that involve Information Technology. It is where Atharv got an award from.
-
-VSIT is a college in mumbai,india from which Atharv transferred to Rutgers University.
-
-Link to Atharv's Linkedin Profile: https://www.linkedin.com/in/atharv-patwardhan/
-
-Link to Atharv's Github Profile: https://github.com/atharvpatwardhan
-
-Atharv Patwardhan is a highly skilled and versatile software developer with extensive experience in various domains, including software engineering, machine learning, and full-stack development. He has a proven track record of success in internships, educational projects, and competitions, showcasing his technical proficiency and ability to work effectively in cross-functional teams.
 
 ### Professional Experience
 
@@ -56,16 +30,45 @@ Atharv piloted the successful implementation of various machine learning models 
 Atharv is pursuing a Bachelor of Science with a double major in Computer Science and Computational and Applied Mathematics at Rutgers University, expected to graduate in 2025. His coursework includes Data Structures and Algorithms, Cloud Computing, Operating Systems, Linear Algebra, Discrete Math, Statistics, and Calculus I & II.
 
 ### Projects
+Modalytics: Machine Learning Model Evaluation Platform 
+• Developed an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB for model evaluation. 
+• Reduced model evaluation time by automated testing and performance evaluation done by deploying python model evaluation 
+scripts in docker containers to AWS Lambda. 
+• Computed metrics such as MSE, MAE, R² Score and stored them in DynamoDB. 
+• Built an interactive streamlit dashboard to present the metrics over time in an intuitive manner for easy visualization. 
 
-**Social Verse – A Full Stack Social Media Application**
-Atharv led the conception and development of Social Verse, a comprehensive full-stack social media platform engineered to rival Instagram's functionality and user experience. He integrated the Google OAuth API for user authentication and used REST APIs for real-time communication from the server to the database. Additionally, he enhanced user engagement by introducing advanced filtering options, allowing users to categorize and curate their content consumption across diverse categories such as Cars, Fitness, Humor, and more.
+Autonomous Driving Model  
+• A Convolutional Neural Network (CNN) for autonomous driving, inspired by Nvidia's end-to-end learning for self-driving 
+cars research paper, tested using the Udacity Driving Simulator.  
+• Achieved a 90% success rate in lane keeping and applying data augmentation techniques such as Gaussian Blur to improve 
+training results. 
+• Attained 98% accuracy on the model after training on 50 epochs using the Google Cloud Platform.   
+AI Job Board  
+• An AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights. Integrated a 
+salary prediction model with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering 
+recommendation system powered by cosine similarity, enhancing suggestions by 30%. 
+• Implemented an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, 
+high-demand skills, growing and declining industry sectors, and much more, enabling users to make data-informed career 
+decisions. 
 
-**Wanderlust Journeys – A Full Stack Blog Application**
-Atharv piloted the development of Wanderlust Journeys, a travel blog application built with the MERN stack and a Next.js frontend. He implemented all CRUD operations and additional features such as liking and commenting on posts, using REST API for connection between the frontend and server. The application enriched user experience with personalized profiles and the ability to post HD pictures of nature.
+Clash Royale Analytics Dashboard 
+• Built an interactive analytics dashboard using python and the panel library to efficiently process and analyze over 13 GB of 
+player data from the popular strategy game Clash Royale. 
+• Leveraged algorithms like K-Means Clustering to uncover insights on metrics such as elixir usage, card usage and other 
+gameplay trends across 20+ arenas, assisting strategic decision making for players. 
+
 
 ### Achievements and Awards
 
-Atharv is a recipient of the Philadelphia Philanthropic Society for Information Management Foundation Inc. (PHISIM) Award and secured 2nd place in the VSIT Coding Competition 2022.
+Atharv is a recipient of the Philadelphia Philanthropic Society for Information Management Foundation Inc. (PHISIM) award.
+Recipient of International Chancellor's Scholarship.
+Deans List at Rutgers University in all semesters.
+
+
+PHISIM is a bridge to the community for Philadelphia area Information Technology leaders. They are a non-profit organization that focuses on charitable activities that involve Information Technology. It is where Atharv got an award from.
+
+VSIT is a college in mumbai,india from which Atharv transferred to Rutgers University.
+
 
 ### Technical Skills
 
@@ -77,3 +80,17 @@ Tools and Frameworks: Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, M
 Git, Streamlit, Spring Boot, Flask, JSON, REST API, Docker, Fast API, Statistics, Big Data Algorithms, AWS 
 
 Atharv Patwardhan's diverse experience and technical expertise make him a valuable asset in the field of software development, capable of tackling complex challenges and delivering high-quality solutions.
+
+
+## Extra Info
+When Atharv is not coding, he enjoys playing Badminton, Chess and also has a liking for painting and music.
+
+Atharv lives in New Jersey,USA.
+
+Atharv's favourite color is red.
+
+Atharv is 21 years old.
+
+Link to Atharv's Linkedin Profile: https://www.linkedin.com/in/atharv-patwardhan/
+
+Link to Atharv's Github Profile: https://github.com/atharvpatwardhan
