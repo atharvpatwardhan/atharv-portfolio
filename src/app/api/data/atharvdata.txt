@@ -16,8 +16,19 @@ families, achieving a 94% accuracy.
 seamless model training. 
 • Developed a web-based tool integrating the model to provide real-time classification for users.
 
-**Software Developer Intern at Independence Education, Philadelphia, PA (June 2024 - Present)**
-Atharv is currently interning at Independence Education, an Ed-Tech startup, where he has developed an educational dashboard. Utilizing technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js, he has created a seamless user experience. His role involves collaborating across cross-functional teams to ensure the smooth development of the application.
+Independence Education 
+Software Developer Intern 
+Philadelphia, PA 
+Jun 2024 - Aug 2024 
+• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, 
+Chart.js, PostgreSQL, and Node.js to provide actionable insights. 
+• Used data visualization techniques to present complex datasets in an intuitive manner, enhancing user engagement and 
+enabling data-driven decision-making, which improved learning outcomes for learners and educators. 
+• Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation 
+(RAG) architecture for enhanced accuracy and contextual relevance, which increased user interaction and support efficiency. 
+• Improved application performance by implementing optimized code practices and modern development tools, achieving a 
+30% increase in internal efficiency and development speed during peak feature development sprints, while ensuring seamless 
+scalability across the platform. 
 
 **Software Engineering Intern at VIIE, Mumbai, IN (December 2022 - July 2023)**
 During his tenure at VIIE, Atharv spearheaded the development of the official VIIE Web Application using cutting-edge technologies, including React.js, Next.js, and Tailwind CSS. He managed a 15-member cross-functional team comprising frontend, backend, database, and UI/UX professionals. By pioneering AGILE project management techniques, he optimized resource allocation and adjusted plans to navigate evolving project demands, ensuring project success amidst dynamic challenges and shifting priorities.
