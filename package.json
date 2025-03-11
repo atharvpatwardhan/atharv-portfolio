@@ -12,6 +12,7 @@
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
     "@langchain/openai": "^0.4.2",
+    "@vercel/analytics": "^1.5.0",
     "ai": "3.2.22",
     "clsx": "^2.1.1",
     "emailjs": "^4.0.3",
