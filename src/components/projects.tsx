@@ -34,7 +34,7 @@ function Projects({ projects }: ProjectsProps) {
       <SectionHeading className="md:pl-12">
         <SlideIn className="text-white/40">My</SlideIn>
         <br />
-        <SlideIn>projects.</SlideIn>
+        <SlideIn>Projects.</SlideIn>
       </SectionHeading>
       <motion.div className="grid md:grid-cols-3 grid-cols-2 md:gap-6 gap-3 relative">
         {filteredProjects.map((project, index) => (
