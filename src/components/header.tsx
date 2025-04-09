@@ -231,7 +231,7 @@ const navLinks = [
   },
   {
     title: "Resume",
-    href: "https://atharvpatwardhan.github.io/",
+    href: "https://drive.google.com/file/d/1uC-DL07GIwiAUkv4donRKaoPTGcbY3CJ/view?usp=sharing",
   },
 ];
 

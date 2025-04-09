@@ -41,7 +41,9 @@ const About = ({ about, timeline }: AboutProps) => {
         </Transition>
         <div className="pt-10">
           <Link
-            href={"https://atharvpatwardhan.github.io/"}
+            href={
+              "https://drive.google.com/file/d/1uC-DL07GIwiAUkv4donRKaoPTGcbY3CJ/view?usp=sharing"
+            }
             target="_blank"
             rel="noopener noreferrer"
           >
