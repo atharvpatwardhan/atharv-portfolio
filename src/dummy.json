@@ -252,12 +252,26 @@
   "projects": [
     {
       "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/Driver-Drowsiness-Detection-Pipeline",
+      "title": "Driver Drowsiness Detection",
+      "sequence": 16,
+      "image": {
+        "public_id": "project5",
+        "url": "/project4.png"
+      },
+      "description": "Developed a real-time driver drowsiness detection system using computer vision and deep learning. The system monitors driver's facial features, particularly eye movements and head position, to detect signs of drowsiness. Implemented using OpenCV for face detection and custom CNN model for drowsiness classification, achieving 94% accuracy in real-world testing scenarios.",
+      "techStack": ["Python", "OpenCV", "AWS", "Airflow", "Kafka", "Spark"],
+      "_id": "project5",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
       "githuburl": "https://github.com/atharvpatwardhan/Modalytics",
       "title": "Modalytics",
       "sequence": 1,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "/project6.jpeg"
+        "url": "/project1.jpeg"
       },
       "description": "Developed an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB for model evaluation. Reduced model evaluation time by automated testing and performance evaluation done by deploying python model evaluation scripts in docker containers to AWS Lambda. Computed metrics such as MSE, MAE, R² Score and stored them in DynamoDB. Built an interactive streamlit dashboard to present the metrics over time in an intuitive manner for easy visualization",
       "techStack": [
@@ -272,12 +286,26 @@
     },
     {
       "liveurl": "#",
+      "githuburl": "https://github.com/atharvpatwardhan/Wine-Quality-Prediction-Pipeline",
+      "title": "Wine Quality Prediction Pipeline",
+      "sequence": 17,
+      "image": {
+        "public_id": "project6",
+        "url": "/project6.jpeg"
+      },
+      "description": "Developed an end-to-end ML pipeline for predicting wine quality using ElasticNet regression. The system features automated data processing, MLflow integration for experiment tracking, and a Flask web interface. Implemented comprehensive pipeline stages including data validation, transformation, and model evaluation, achieving high prediction accuracy with thorough performance metrics tracking.",
+      "techStack": ["Python", "MLflow", "Flask", "Scikit-learn", "ElasticNet"],
+      "_id": "project6",
+      "enabled": true
+    },
+    {
+      "liveurl": "#",
       "githuburl": "https://github.com/atharvpatwardhan/LinkedOut-AI-Job-Board",
       "title": "AI Job Board",
       "sequence": 14,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "/project1.jpeg"
+        "url": "/project5.png"
       },
       "description": "AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights. Integrated a salary prediction model with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering recommendation system powered by cosine similarity, enhancing suggestions by 30%. Implemented an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, high-demand skills, growing and declining industry sectors, and much more, enabling users to make data-informed career decisions. ",
       "techStack": [

@@ -14,7 +14,7 @@ export const SectionHeading = ({
   return (
     <motion.h3
       className={cn(
-        "text-4xl md:text-6xl font-semibold md:px-4 px-2 pb-10 mx-auto",
+        "text-4xl md:text-6xl font-semibold md:px-2 px-2 pb-10 mx-auto",
         className
       )}
       {...props}

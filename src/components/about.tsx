@@ -24,7 +24,7 @@ const About = ({ about, timeline }: AboutProps) => {
 
   return (
     <section
-      className="grid md:grid-cols-[1.8fr_1fr] gap-x-10 py-20 px-4 md:px-8 relative"
+      className="grid md:grid-cols-[1.8fr_1fr] gap-x-10 py-20 px-4 md:px-20 relative"
       id="about"
     >
       <div>
@@ -42,7 +42,7 @@ const About = ({ about, timeline }: AboutProps) => {
         <div className="pt-10">
           <Link
             href={
-              "https://drive.google.com/file/d/1uC-DL07GIwiAUkv4donRKaoPTGcbY3CJ/view?usp=sharing"
+              "https://drive.google.com/file/d/1cr0fm3MmnFFddZmxazUHlaN0duL0Chj9/view?usp=sharing"
             }
             target="_blank"
             rel="noopener noreferrer"
