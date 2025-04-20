@@ -5,7 +5,7 @@ export interface Portfolio {
   email: string;
   role: string;
   timeline: Timeline[];
-  skills: Skill[];
+  skills: any[];
   projects: Project[];
   social_handles: SocialHandle[];
   createdAt: string;
