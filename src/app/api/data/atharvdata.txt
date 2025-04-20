@@ -1,99 +1,73 @@
-## Introduction
-Atharv Patwardhan is a dynamic and ambitious young professional in the field of software development and machine learning, with a diverse portfolio of experiences that showcase his technical prowess, leadership skills, and commitment to innovation.
+SUMMARY 
+Results-driven Computer Science graduate with hands-on experience in machine learning, data engineering, and full-stack development. Skilled in 
+building scalable end-to-end ML pipelines, data analytics dashboards, and AI-driven applications. AWS Certified and well versed with big data and tools 
+like Apache Airflow, Kafka, and Spark. Experienced in both research and fast-paced startup environments. Passionate about leveraging data and machine 
+learning to build impactful software. 
 
-He is currently pursuing a Bachelor of Science with a double major in Computer Science and Computational and Applied Mathematics at Rutgers University.
+EDUCATION 
+Rutgers University    
+May 2025 (Expected) 
+Bachelor of Science in Computer Science + Computational and Applied Mathematics, GPA: 3.83/4.0, Recipient of Philadelphia Philanthropic Society for 
+Information Management Foundation Inc. (PHISIM) Award for Academic Excellence, and Chancellor’s Merit Scholarship. Dean’s List in all Semesters. 
+Rutgers University       
+May 2026 (Expected) 
+Master of Science in Data Science 
+
+TECHNICAL SKILLS 
+Programming Languages: Python, Java, JavaScript, Typescript, C, C++ 
+Databases & Cloud: SQL, MongoDB, SQLite, PostgreSQL, AWS Redshift, AWS DynamoDB, Microsoft SQL Server 
+Data Engineering & Devops Tools: Apache Airflow, Apache Kafka, MLFlow, Apache Spark, PySpark, Hadoop, Map Reduce 
+Machine Learning & Data Science: Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, Matplotlib, Seaborn, Streamlit 
+Web & Full Stack: Next.js, React.js, Node.js, Spring Boot, Flask, FastAPI, REST API, JSON 
+Certifications: AWS Certified Cloud AI Practitioner 
+
+WORK EXPERIENCE 
+Machine Learning Research Assistant, Rutgers University, Camden, NJ                      
+December 2024 – Present 
+• Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein families, achieving a 
+94% accuracy. 
+• Processed and transformed 12,000+ records from FASTA files into pandas dataframes, optimizing data preprocessing for seamless model 
+training. 
+• Developed a web-based tool integrating the machine learning model, resulting in real-time classification capabilities for users. 
+Software Developer Intern, Independence Education, Philadelphia, PA                                                                                                  
+June 2024 – August 2021 
+• Designed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) 
+architecture for enhanced accuracy and contextual relevance, which increased user interaction and support efficiency. 
+• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, 
+PostgreSQL, and Node.js to provide actionable insights, enhancing user engagement and data-driven decision making. 
+• Boosted application performance by implementing optimized code practices and modern development tools, achieving a 30% increase in 
+internal efficiency and development speed during peak feature development sprints. 
 
 
-### Professional Experience
-
-Rutgers University 
-Machine Learning Research Assistant 
-Camden, New Jersey 
-Dec 2024 - Present 
-• Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein 
-families, achieving a 94% accuracy. 
-• Processed and transformed 12,000+ data points from FASTA files into pandas dataframes, optimizing data preprocessing for 
-seamless model training. 
-• Developed a web-based tool integrating the model to provide real-time classification for users.
-
-Independence Education 
-Software Developer Intern 
-Philadelphia, PA 
-Jun 2024 - Aug 2024 
-• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, 
-Chart.js, PostgreSQL, and Node.js to provide actionable insights. 
-• Used data visualization techniques to present complex datasets in an intuitive manner, enhancing user engagement and 
-enabling data-driven decision-making, which improved learning outcomes for learners and educators. 
-• Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation 
-(RAG) architecture for enhanced accuracy and contextual relevance, which increased user interaction and support efficiency. 
-• Improved application performance by implementing optimized code practices and modern development tools, achieving a 
-30% increase in internal efficiency and development speed during peak feature development sprints, while ensuring seamless 
-scalability across the platform. 
-
-**Software Engineering Intern at VIIE, Mumbai, IN (December 2022 - July 2023)**
-During his tenure at VIIE, Atharv spearheaded the development of the official VIIE Web Application using cutting-edge technologies, including React.js, Next.js, and Tailwind CSS. He managed a 15-member cross-functional team comprising frontend, backend, database, and UI/UX professionals. By pioneering AGILE project management techniques, he optimized resource allocation and adjusted plans to navigate evolving project demands, ensuring project success amidst dynamic challenges and shifting priorities.
-
-**Machine Learning Intern at Feynn Labs, Bangalore, IN (May 2022 - July 2022)**
-Atharv piloted the successful implementation of various machine learning models at Feynn Labs. He worked with advanced techniques such as LSTM, Linear Regression, Multiple Linear Regression, and Support Vector Regression to solve complex real-world challenges. His multifaceted responsibilities included market analysis, data exploration, and comprehensive report generation, delivering actionable insights that empowered stakeholders to make informed decisions and drive strategic initiatives forward.
-
-### Education
-
-Atharv is pursuing a Bachelor of Science with a double major in Computer Science and Computational and Applied Mathematics at Rutgers University, expected to graduate in 2025. His coursework includes Data Structures and Algorithms, Cloud Computing, Operating Systems, Linear Algebra, Discrete Math, Statistics, and Calculus I & II.
-
-### Projects
+PROJECTS 
+Driver Drowsiness Detection System and Retraining Pipeline 
+• Achieved 90% detection accuracy by fine-tuning a YOLOv8 model for real-time drowsiness detection, processing real-time frames using 
+Kafka and Spark Streaming, ensuring immediate alerts and WhatsApp notifications to registered phone numbers. 
+• Reduced false positive rate by 40% through an automated retraining pipeline, where misclassified images are reported via an AWS Lambda 
+function, stored in S3, and used for model fine-tuning with Apache Airflow. 
+• Improved model monitoring and experimentation efficiency by integrating MLflow for tracking model versions, hyperparameters, and 
+performance metrics, ensuring continuous optimization. 
 Modalytics: Machine Learning Model Evaluation Platform 
-• Developed an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB for model evaluation. 
-• Reduced model evaluation time by automated testing and performance evaluation done by deploying python model evaluation 
-scripts in docker containers to AWS Lambda. 
-• Computed metrics such as MSE, MAE, R² Score and stored them in DynamoDB. 
-• Built an interactive streamlit dashboard to present the metrics over time in an intuitive manner for easy visualization. 
-
-Autonomous Driving Model  
-• A Convolutional Neural Network (CNN) for autonomous driving, inspired by Nvidia's end-to-end learning for self-driving 
-cars research paper, tested using the Udacity Driving Simulator.  
-• Achieved a 90% success rate in lane keeping and applying data augmentation techniques such as Gaussian Blur to improve 
-training results. 
-• Attained 98% accuracy on the model after training on 50 epochs using the Google Cloud Platform.   
+• Created an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB. 
+• Reduced model evaluation time by automated testing and performance evaluation by deploying python evaluation scripts to AWS Lambda 
+via Docker containers and saving evaluation metrics to DynamoDB. 
+• Built an interactive streamlit and plotly dashboard to present the metrics over time in an intuitive manner for easy visualization. 
+Wine Quality Prediction ETL Pipeline 
+• Engineered an end-to-end ETL machine learning pipeline for wine quality prediction by developing components for data ingestion, 
+validation transformation and training an ElasticNet Regression model for improved prediction accuracy.  
+• Orchestrated MLFlow for experiment tracking and logging, and capturing key metrics such as MSE, R2 score, and accuracy.  
+• Deployed a Flask web application for real-time model inference, enabling users to input wine properties and obtain instant predictions. 
 AI Job Board  
-• An AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights. Integrated a 
-salary prediction model with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering 
-recommendation system powered by cosine similarity, enhancing suggestions by 30%. 
-• Implemented an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, 
-high-demand skills, growing and declining industry sectors, and much more, enabling users to make data-informed career 
-decisions. 
-
-Clash Royale Analytics Dashboard 
-• Built an interactive analytics dashboard using python and the panel library to efficiently process and analyze over 13 GB of 
-player data from the popular strategy game Clash Royale. 
-• Leveraged algorithms like K-Means Clustering to uncover insights on metrics such as elixir usage, card usage and other 
-gameplay trends across 20+ arenas, assisting strategic decision making for players. 
-
-
-### Achievements and Awards
-
-Atharv is a recipient of the Philadelphia Philanthropic Society for Information Management Foundation Inc. (PHISIM) award.
-Recipient of International Chancellor's Scholarship.
-Deans List at Rutgers University in all semesters.
-
-
-PHISIM is a bridge to the community for Philadelphia area Information Technology leaders. They are a non-profit organization that focuses on charitable activities that involve Information Technology. It is where Atharv got an award from.
-
-VSIT is a college in mumbai,india from which Atharv transferred to Rutgers University.
-
-
-### Technical Skills
-
-Atharv's technical skills encompass a wide range of programming languages, databases, and tools/frameworks:
-
-Languages: Python, Java, JavaScript, Typescript, C, C++, HTML, CSS 
-Database: SQL, MongoDB, SQLite 
-Tools and Frameworks: Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, Matplotlib, Holoviews, Hvplot, Seaborn, 
-Git, Streamlit, Spring Boot, Flask, JSON, REST API, Docker, Fast API, Statistics, Big Data Algorithms, AWS 
+• An AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights such as skill gap between 
+required skills and the user’s skills, susceptibility towards being replaced by AI, market demand, etc. Integrated a salary prediction model 
+with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering recommendation system powered by 
+cosine similarity, enhancing suggestions by 30%. 
+• Generated an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, high-demand 
+skills, growing and declining industry sectors, and much more, enabling users to make data-informed career decisions.
 
 Atharv Patwardhan's diverse experience and technical expertise make him a valuable asset in the field of software development, capable of tackling complex challenges and delivering high-quality solutions.
 
-
-## Extra Info
+Extra Info
 When Atharv is not coding, he enjoys playing Badminton, Chess and also has a liking for painting and music.
 
 Atharv lives in New Jersey,USA.
