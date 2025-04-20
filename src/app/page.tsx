@@ -23,7 +23,7 @@ export default async function Home() {
       <ChatbotButton />
 
       <About about={about} timeline={timeline} />
-      <Skills skills={skills} />
+      <Skills />
       <Projects projects={projects} />
       <Timeline timeline={timeline} />
       <Contact email={email} social_handle={social_handles} about={about} />
