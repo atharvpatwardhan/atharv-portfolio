@@ -187,7 +187,7 @@ export default function ProjectPage() {
                 <Github />
                 View on GitHub
               </Link>
-              {project.liveurl && (
+              {/* {project.liveurl && (
                 <Link
                   href={project.liveurl}
                   target="_blank"
@@ -195,7 +195,7 @@ export default function ProjectPage() {
                 >
                   Live Demo →
                 </Link>
-              )}
+              )} */}
             </div>
           </section>
 
