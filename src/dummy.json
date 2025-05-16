@@ -238,8 +238,8 @@
         "public_id": "project5",
         "url": "/project4.png"
       },
-      "description": "Developed a real-time driver drowsiness detection system using computer vision and deep learning. The system monitors driver's facial features, particularly eye movements and head position, to detect signs of drowsiness. Implemented using OpenCV for face detection and custom CNN model for drowsiness classification, achieving 94% accuracy in real-world testing scenarios.",
-      "techStack": ["Python", "OpenCV", "AWS", "Airflow", "Kafka", "Spark"],
+      "description": "Developed a real-time driver drowsiness detection system using computer vision and a big data pipeline.",
+      "techStack": ["Python", "YoloV8", "AWS", "Airflow", "Kafka", "Spark"],
       "_id": "project5",
       "enabled": true
     },
@@ -252,7 +252,7 @@
         "public_id": "1706285511679-xe7r9t",
         "url": "/project1.jpeg"
       },
-      "description": "Developed an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB for model evaluation. Reduced model evaluation time by automated testing and performance evaluation done by deploying python model evaluation scripts in docker containers to AWS Lambda. Computed metrics such as MSE, MAE, R² Score and stored them in DynamoDB. Built an interactive streamlit dashboard to present the metrics over time in an intuitive manner for easy visualization",
+      "description": "An automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB.",
       "techStack": [
         "Python ",
         " AWS ",
@@ -272,7 +272,7 @@
         "public_id": "project6",
         "url": "/project6.jpeg"
       },
-      "description": "Developed an end-to-end ML pipeline for predicting wine quality using ElasticNet regression. The system features automated data processing, MLflow integration for experiment tracking, and a Flask web interface. Implemented comprehensive pipeline stages including data validation, transformation, and model evaluation, achieving high prediction accuracy with thorough performance metrics tracking.",
+      "description": "Developed an end-to-end ML pipeline for predicting wine quality using ElasticNet regression.",
       "techStack": ["Python", "MLflow", "Flask", "Scikit-learn", "ElasticNet"],
       "_id": "project6",
       "enabled": true
@@ -286,7 +286,7 @@
         "public_id": "1706285511679-xe7r9t",
         "url": "/project5.png"
       },
-      "description": "AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights. Integrated a salary prediction model with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering recommendation system powered by cosine similarity, enhancing suggestions by 30%. Implemented an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, high-demand skills, growing and declining industry sectors, and much more, enabling users to make data-informed career decisions. ",
+      "description": "AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights.",
       "techStack": [
         "Python ",
         " Numpy ",
@@ -306,7 +306,7 @@
         "public_id": "1706285468702-igx05q",
         "url": "/project3.jpeg"
       },
-      "description": "A Convolutional Neural Network (CNN) for autonomous driving, inspired by Nvidia's end-to-end learning for self-driving cars research paper, tested using the Udacity Driving Simulator. Achieved a 90% success rate in lane keeping and applying data augmentation techniques such as Gaussian Blur to improve training results. Attained 98% accuracy on the model after training on 50 epochs using the Google Cloud Platform.",
+      "description": "A Convolutional Neural Network (CNN) for autonomous driving, inspired by Nvidia's end-to-end learning for self-driving cars research paper.",
       "techStack": ["Tensorflow ", " Scikit-learn", "OpenCV", "Python"],
       "_id": "project3",
       "enabled": true
@@ -320,7 +320,7 @@
         "public_id": "1706285431821-3lfg2r",
         "url": "/project2.jpeg"
       },
-      "description": "Built an interactive analytics dashboard using python and the panel library to efficiently process and analyze over 13 GB of player data from the popular strategy game Clash Royale. Leveraged algorithms like K-Means Clustering to uncover insights on metrics such as elixir usage, card usage and other gameplay trends across 20+ arenas, assisting strategic decision making for players. ",
+      "description": "Built an interactive analytics dashboard to analyze data from the popular mobile game Clash Royale.",
       "techStack": ["Python", " Scikit-learn", " Numpy ", " Panel"],
       "_id": "project4",
       "enabled": true
