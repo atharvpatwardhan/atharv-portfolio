@@ -42,7 +42,7 @@ const About = ({ about, timeline }: AboutProps) => {
         <div className="pt-10">
           <Link
             href={
-              "https://drive.google.com/file/d/1nij8wzvoTGBc4kGsryW3mBgW4wYI1MsG/view?usp=sharing"
+              "https://drive.google.com/file/d/1imCjggyZJIJ0hV8zfJWk7_Ua1SFPHkOQ/view?usp=sharing"
             }
             target="_blank"
             rel="noopener noreferrer"

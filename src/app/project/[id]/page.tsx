@@ -82,11 +82,11 @@ const ProjectStory = {
       "Handling edge cases and false positives",
     ],
     implementation:
-      "Developed using OpenCV for face detection and a custom CNN model for drowsiness classification. The system monitors eye aspect ratio and head position in real-time, triggering alerts when signs of drowsiness are detected. The project integrates a feedback loop for retraining using Apache Kafka, Spark, AWS, and Airflow. Model performance is tracked with MLflow.",
+      "Developed by fine-tuning a YoloV8 model for drowsiness classification. The system monitors the user's face in real-time, triggering alerts when signs of drowsiness are detected. The project integrates a feedback loop for retraining using Apache Kafka, Spark, AWS, and Airflow. Model performance is tracked with MLflow.",
     learnings:
       "Gained extensive experience in computer vision, real-time processing systems, and deploying deep learning models in practical applications. Learned to set up a scalable pipeline that enables automated retraining based on misclassified data.",
     impact:
-      "Achieved 94% accuracy in detecting drowsiness, significantly improving road safety through AI-driven monitoring systems. The automated retraining loop ensures the system adapts and improves over time.",
+      "Achieved 90% accuracy in detecting drowsiness, significantly improving road safety through AI-driven monitoring systems. The automated retraining loop ensures the system adapts and improves over time.",
   },
   project6: {
     motivation:

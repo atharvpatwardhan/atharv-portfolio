@@ -37,12 +37,12 @@
       "sequence": 1,
       "startDate": "2024-12-10T00:00:00.000Z",
       "endDate": "2025-05-12T00:00:00.000Z",
-      "jobTitle": "Machine Learning Research Assistant",
-      "jobLocation": " Philadelphia, PA",
+      "jobTitle": "Machine Learning Engineer",
+      "jobLocation": " Camden, NJ",
       "bulletPoints": [
-        "Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein families, achieving a 94% accuracy. ",
-        "\nProcessed and transformed 12,000+ data points from FASTA files into pandas dataframes, optimizing data preprocessing for seamless model training. ",
-        "\nDeveloped a web-based tool integrating the model to provide real-time classification for users."
+        "\n• Achieved 94% accuracy in classifying Heat Shock Proteins by implementing a Multiple Convolutional Neural Network (MulCNN), leading to improved sequence classification",
+        "\n• Optimized model training workflows by implementing a data ingestion and preprocessing pipeline, transforming 12,000+ protein sequences from FASTA files into structured dataframes.",
+        "\n• Fine-tuned the TinyLlama llm using Low-Rank Adaptation (LoRA), to benchmark against the MulCNN and improve model performance."
       ],
       "forEducation": true,
       "enabled": true,
@@ -57,10 +57,8 @@
       "jobTitle": "Software Developer Intern",
       "jobLocation": " Philadelphia, PA",
       "bulletPoints": [
-        "Created a comprehensive data analytics dashboard that links to the Canvas student software for an Ed-Tech startup, leveraging TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights",
-        "\nEngineered a powerful chatbot prototype utilizing the GPT-3.5-turbo model and LangChain, integrating a Retrieval- Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance.",
-        "\nEmployed advanced data visualization techniques to present complex datasets in an intuitive manner, significantly enhancing user engagement and enabling data-driven decision-making for improved learning outcomes for both, learners and educators",
-        "\nEmployed advanced data visualization techniques to present complex datasets in an intuitive manner, significantly enhancing user engagement and enabling data-driven decision-making for improved learning outcomes for both, learners and educators"
+        "\n• Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance, which improved user engagement and support efficiency.",
+        "\n• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights, enhancing data-driven decision making."
       ],
       "forEducation": true,
       "enabled": true,
@@ -75,32 +73,13 @@
       "jobTitle": "Software Engineering Intern",
       "jobLocation": "Remote",
       "bulletPoints": [
-        "Developed microservices using Node.js and deployed them using Docker containers.Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
-        "\nSuccessfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
-        "\nSuccessfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
-        "\nActively engaged with stakeholders to gather requirements, provide progress updates, and incorporate feedback, ensuring the final product met or exceeded expectations."
+        "\n• Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
+        "\n• Successfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
+        "\n• Actively engaged with stakeholders to gather requirements, provide progress updates, and incorporate feedback, ensuring the final product met or exceeded expectations."
       ],
       "forEducation": false,
       "enabled": true,
       "_id": "3"
-    },
-    {
-      "company_name": "FeynnLabs",
-      "summary": "",
-      "sequence": 3,
-      "startDate": "2022-05-11T00:00:00.000Z",
-      "endDate": "2022-07-28T00:00:00.000Z",
-      "jobTitle": "Machine Learning Intern",
-      "jobLocation": "Remote",
-      "bulletPoints": [
-        "Piloted the successful implementation of diverse Machine Learning Models, including advanced techniques like LSTM, Multiple Linear Regression, and Support Vector Regression effectively to solve complex optimization challenges, resulting in enhanced operational efficiency and approximately 15% growth in revenue.",
-        "\nConducted data exploration and generated comprehensive reportsthat provided actionable insights, empowering stakeholders to make informed decisions and advance strategic initiatives",
-        "\nConducted an in-depth analysis of the electric vehicle market, identifying three major growth opportunities that prompted a strategic shift resulting in 25% more investment towards innovative EV initiatives over six months.",
-        "\nCollaborated effectively with cross-functional teams, including data scientists, engineers, and business analysts, to ensure the successful deployment of machine learning models. Facilitated knowledge sharing and fostered a collaborative environment to drive innovation and continuous improvement."
-      ],
-      "forEducation": false,
-      "enabled": true,
-      "_id": "4"
     }
   ],
   "skills": [
