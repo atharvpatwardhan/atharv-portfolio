@@ -5,65 +5,45 @@ like Apache Airflow, Kafka, and Spark. Experienced in both research and fast-pac
 learning to build impactful software. 
 
 EDUCATION 
-Rutgers University    
-May 2025 (Expected) 
-Bachelor of Science in Computer Science + Computational and Applied Mathematics, GPA: 3.83/4.0, Recipient of Philadelphia Philanthropic Society for 
-Information Management Foundation Inc. (PHISIM) Award for Academic Excellence, and Chancellor’s Merit Scholarship. Dean’s List in all Semesters. 
-Rutgers University       
-May 2026 (Expected) 
-Master of Science in Data Science 
+Rutgers University                 May 2026
+Master of Science in Data Science	
+Rutgers University        	       May 2025
+Bachelor of Science in Computer Science + Computational and Applied Mathematics
+GPA: 3.8/4.0, Awarded with Philadelphia Philanthropic Society for Information Management Foundation Inc. (PHISIM) Award for Academic Excellence, and Chancellor’s Merit Scholarship. Dean’s List in all Semesters.	
 
 TECHNICAL SKILLS 
-Programming Languages: Python, Java, JavaScript, Typescript, C, C++ 
-Databases & Cloud: SQL, MongoDB, SQLite, PostgreSQL, AWS Redshift, AWS DynamoDB, Microsoft SQL Server 
-Data Engineering & Devops Tools: Apache Airflow, Apache Kafka, MLFlow, Apache Spark, PySpark, Hadoop, Map Reduce 
-Machine Learning & Data Science: Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, Matplotlib, Seaborn, Streamlit 
-Web & Full Stack: Next.js, React.js, Node.js, Spring Boot, Flask, FastAPI, REST API, JSON 
-Certifications: AWS Certified Cloud AI Practitioner 
+Programming Languages	Python, Java, Javascript, Typescript, C, C++
+Databases	MySQL, MongoDB, PostgreSQL, AWS Redshift, AWS DynamoDB
+Data Engineering & Devops	Apache Airflow, Apache Kafka, Apache Spark, PySpark, Docker, Kubernetes, Hadoop, Map Reduce
+Machine Learning & Data Science	Scikit-learn, Tensorflow, Keras, Numpy, Pandas, Pytorch, MLFlow, AWS Sagemaker
+Web & Full Stack Development	Next.js, React.js, Node.js, Spring Boot, Flask, FastAPI, REST API, JSON
+Certifications	AWS Certified AI Practitioner
 
 WORK EXPERIENCE 
-Machine Learning Research Assistant, Rutgers University, Camden, NJ                      
-December 2024 – Present 
-• Implemented a Multiple Convolution Network (MulCNN) for classification of Heat Shock Proteins into distinct protein families, achieving a 
-94% accuracy. 
-• Processed and transformed 12,000+ records from FASTA files into pandas dataframes, optimizing data preprocessing for seamless model 
-training. 
-• Developed a web-based tool integrating the machine learning model, resulting in real-time classification capabilities for users. 
-Software Developer Intern, Independence Education, Philadelphia, PA                                                                                                  
-June 2024 – August 2021 
-• Designed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) 
-architecture for enhanced accuracy and contextual relevance, which increased user interaction and support efficiency. 
-• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, 
-PostgreSQL, and Node.js to provide actionable insights, enhancing user engagement and data-driven decision making. 
-• Boosted application performance by implementing optimized code practices and modern development tools, achieving a 30% increase in 
-internal efficiency and development speed during peak feature development sprints. 
+Rutgers University MLBC Lab	Camden, NJ
+Machine Learning Engineer                                                                                                                                            December 2024 – May 2025
+•	Achieved 94% accuracy in classifying Heat Shock Proteins by implementing a Multiple Convolutional Neural Network (MulCNN), leading to improved sequence classification.
+•	Optimized model training workflows by implementing a data ingestion and preprocessing pipeline, transforming over 12,000 protein sequences from FASTA files into structured dataframes.
+•	Fine-tuned the TinyLlama llm using Low-Rank Adaptation (LoRA), to benchmark against the MulCNN and improve model performance.
+Independence Education                                                                                                                                                                    Philadelphia, PA
+Software Development Intern	August 2023 - January 2024
+•	Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance, which improved user engagement and support efficiency.
+•	Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights, enhancing data-driven decision making.
 
 
 PROJECTS 
-Driver Drowsiness Detection System and Retraining Pipeline 
-• Achieved 90% detection accuracy by fine-tuning a YOLOv8 model for real-time drowsiness detection, processing real-time frames using 
-Kafka and Spark Streaming, ensuring immediate alerts and WhatsApp notifications to registered phone numbers. 
-• Reduced false positive rate by 40% through an automated retraining pipeline, where misclassified images are reported via an AWS Lambda 
-function, stored in S3, and used for model fine-tuning with Apache Airflow. 
-• Improved model monitoring and experimentation efficiency by integrating MLflow for tracking model versions, hyperparameters, and 
-performance metrics, ensuring continuous optimization. 
-Modalytics: Machine Learning Model Evaluation Platform 
-• Created an automated ML Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB. 
-• Reduced model evaluation time by automated testing and performance evaluation by deploying python evaluation scripts to AWS Lambda 
-via Docker containers and saving evaluation metrics to DynamoDB. 
-• Built an interactive streamlit and plotly dashboard to present the metrics over time in an intuitive manner for easy visualization. 
-Wine Quality Prediction ETL Pipeline 
-• Engineered an end-to-end ETL machine learning pipeline for wine quality prediction by developing components for data ingestion, 
-validation transformation and training an ElasticNet Regression model for improved prediction accuracy.  
-• Orchestrated MLFlow for experiment tracking and logging, and capturing key metrics such as MSE, R2 score, and accuracy.  
-• Deployed a Flask web application for real-time model inference, enabling users to input wine properties and obtain instant predictions. 
-AI Job Board  
-• An AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights such as skill gap between 
-required skills and the user’s skills, susceptibility towards being replaced by AI, market demand, etc. Integrated a salary prediction model 
-with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering recommendation system powered by 
-cosine similarity, enhancing suggestions by 30%. 
-• Generated an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, high-demand 
-skills, growing and declining industry sectors, and much more, enabling users to make data-informed career decisions.
+Driver Drowsiness Detection System
+•	Achieved 90% drowsiness detection accuracy by fine-tuning a YOLOv8 model to detect drowsiness based on facial expressions.
+•	Processed video frames through a live camera feed and performed real-time inferencing using Kafka and Spark Streaming, ensuring immediate phone alerts through WhatsApp notifications, if drowsiness is detected.
+•	Reduced the false positive rate by 40% through a retraining pipeline, where misclassified images get reported via AWS Lambda, get stored in a S3 bucket, and used for model retraining with Apache Airflow.
+Modalytics: Machine Learning Model Evaluation Platform
+•	Created an end-to-end Machine Learning Model Evaluation Pipeline integrating AWS Lambda, S3, DynamoDB.
+•	Produced a dashboard containing model performance metrics to show model improvements over time.
+•	Reduced model evaluation time by automated testing and performance evaluation, by deploying python evaluation scripts to AWS Lambda via Docker containers and saving evaluation metrics to DynamoDB.
+AI Job Board
+•	Developed an AI-driven Job Board leveraging data from US Bureau of Labor Statistics to provide actionable career insights such as skill gap between required skills and the user’s skills, susceptibility towards being replaced by AI, and market demand. 
+•	Integrated a salary prediction model with over 85% accuracy using Random Forest Regression and a user-based collaborative filtering recommendation system powered by cosine similarity, enhancing user suggestions by 30%.
+•	Generated an interactive dashboard with the streamlit and plotly libraries, to visualize key trends such as salary projections, high-demand skills, growing and declining industry sectors, enabling users to make data-informed decisions.
 
 Atharv Patwardhan's diverse experience and technical expertise make him a valuable asset in the field of software development, capable of tackling complex challenges and delivering high-quality solutions.
 

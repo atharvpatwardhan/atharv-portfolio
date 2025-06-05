@@ -10,6 +10,8 @@ import Image from "next/image";
 import atharv from "public/atharv_linkedin_new.jpg";
 import { TextReveal } from "./ui/Typography";
 import Link from "next/link";
+import { IoDocumentText } from "react-icons/io5";
+
 interface AboutProps {
   about: IAbout;
   timeline: Timeline[];
@@ -47,8 +49,9 @@ const About = ({ about, timeline }: AboutProps) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <motion.button className="p-4 text-lg text-white rounded-lg border">
-              <TextReveal>Resume</TextReveal>
+            <motion.button className="p-4 text-lg text-white rounded-lg border flex items-center gap-2">
+              <TextReveal>My Resume</TextReveal>
+              <IoDocumentText height={100} />
             </motion.button>
           </Link>
         </div>

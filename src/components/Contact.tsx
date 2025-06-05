@@ -200,7 +200,9 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <div className="md:justify-self-end flex flex-col">
             <div className="pb-4">
               <Transition>
-                <span className="text-white/90">Get in touch</span>
+                <span className="text-white/90">
+                  Fill the form or email me at
+                </span>
               </Transition>
               <div className="text-2xl md:text-4xl font-bold py-2">
                 <Transition>

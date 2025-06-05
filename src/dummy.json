@@ -3,7 +3,7 @@
     "name": "Atharv Patwardhan",
     "title": "Software Developer",
     "subTitle": "I develop software, apply machine learning, and make data-driven decisions.",
-    "description": "I'm a Software Engineer based in New Jersey, USA with a passion for exploring new technologies and creating impactful solutions. I have a deep interest in Mathematics and enjoy developing machine learning and data science applications to tackle real-world challenges. Currently, I’m working towards a Bachelor's degree, double majoring in Computer Science and Mathematics at Rutgers University. If you’re looking for someone who is enthusiastic about technology, loves collaborating, and has a good sense of humor, I’m your guy! When I'm not coding, I enjoy playing Badminton, Chess and also have a liking for painting and music. Feel free to reach out to me if you have a cool project idea, or just want to chat!",
+    "description": "I'm a software engineer obsessed with building data-driven applications. I recently graduated with my Bachelor's degree, double majoring in Computer Science and Mathematics, and am now pursuing a Master's degree in Data Science from Rutgers University. I thrive at the intersection of machine learning, cloud infrastructure, and full-stack development. When I’m not coding or experimenting with new ML models, you’ll find me playing badminton or analyzing game strategies in chess. Let’s build something impactful — feel free to reach out if you’re working on a challenging project or just want to connect!",
     "quote": "A bit about me.",
     "exp_year": "",
     "address": "",
@@ -40,9 +40,9 @@
       "jobTitle": "Machine Learning Engineer",
       "jobLocation": " Camden, NJ",
       "bulletPoints": [
-        "\n• Achieved 94% accuracy in classifying Heat Shock Proteins by implementing a Multiple Convolutional Neural Network (MulCNN), leading to improved sequence classification",
-        "\n• Optimized model training workflows by implementing a data ingestion and preprocessing pipeline, transforming 12,000+ protein sequences from FASTA files into structured dataframes.",
-        "\n• Fine-tuned the TinyLlama llm using Low-Rank Adaptation (LoRA), to benchmark against the MulCNN and improve model performance."
+        "\n Achieved 94% accuracy in classifying Heat Shock Proteins by implementing a Multiple Convolutional Neural Network (MulCNN), leading to improved sequence classification",
+        "\n Optimized model training workflows by implementing a data ingestion and preprocessing pipeline, transforming 12,000+ protein sequences from FASTA files into structured dataframes.",
+        "\n Fine-tuned the TinyLlama llm using Low-Rank Adaptation (LoRA), to benchmark against the MulCNN and improve model performance."
       ],
       "forEducation": true,
       "enabled": true,
@@ -57,8 +57,8 @@
       "jobTitle": "Software Developer Intern",
       "jobLocation": " Philadelphia, PA",
       "bulletPoints": [
-        "\n• Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance, which improved user engagement and support efficiency.",
-        "\n• Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights, enhancing data-driven decision making."
+        "\n Developed a chatbot prototype using the GPT-3.5-turbo model and langchain, integrating a Retrieval-Augmented Generation (RAG) architecture for enhanced accuracy and contextual relevance, which improved user engagement and support efficiency.",
+        "\n Built a data analytics dashboard that links to the Canvas student software, leveraging technologies such as TypeScript, React.js, Chart.js, PostgreSQL, and Node.js to provide actionable insights, enhancing data-driven decision making."
       ],
       "forEducation": true,
       "enabled": true,
@@ -73,9 +73,9 @@
       "jobTitle": "Software Engineering Intern",
       "jobLocation": "Remote",
       "bulletPoints": [
-        "\n• Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
-        "\n• Successfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
-        "\n• Actively engaged with stakeholders to gather requirements, provide progress updates, and incorporate feedback, ensuring the final product met or exceeded expectations."
+        "\n Spearheaded the development of the VIIE Web Application utilizing cutting-edge technologies including React.js, Next.js, and Tailwind CSS ensuring scalability, performance, and maintainability of the application and delivering a rich and engaging user experience.",
+        "\n Successfully managed a diverse, 15-member cross-functional team, including Frontend, Backend, Database, and UI/UX specialists. Fostered a collaborative environment, facilitating effective communication and cooperation between developers and stakeholders.",
+        "\n Actively engaged with stakeholders to gather requirements, provide progress updates, and incorporate feedback, ensuring the final product met or exceeded expectations."
       ],
       "forEducation": false,
       "enabled": true,

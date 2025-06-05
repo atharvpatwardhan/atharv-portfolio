@@ -39,7 +39,9 @@ const Header = ({ social }: HeaderProps) => {
     <motion.header className="fixed top-0 md:mt-12 md:mr-12 right-0 z-20">
       <Transition className="fixed md:top-8 top-6 md:left-8 left-6 z-30 ">
         <Link href={"/"}>
-          <TextReveal className="font-semibold ">Atharv Patwardhan</TextReveal>
+          <TextReveal className="font-semibold text-lg">
+            Atharv Patwardhan
+          </TextReveal>
         </Link>
       </Transition>
       <motion.div
@@ -134,7 +136,7 @@ const Header = ({ social }: HeaderProps) => {
                 );
               })}
             </div>
-            <motion.div className="flex flex-wrap">
+            <motion.div className="flex flex-wrap px-10">
               {social.map((link, i) => {
                 const { platform, _id, url } = link;
                 return (
@@ -149,7 +151,7 @@ const Header = ({ social }: HeaderProps) => {
                     exit="exit"
                     key={_id}
                   >
-                    <TextReveal>{platform}</TextReveal>
+                    <TextReveal className="text-lg">{platform}</TextReveal>
                   </MotionLink>
                 );
               })}
