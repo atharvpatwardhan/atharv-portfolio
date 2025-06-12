@@ -5,4 +5,5 @@ export const siteConfig = {
   name: "Atharv Patwardhan's Portfolio",
   description: "Atharv Patwardhan's web portfolio.",
   url: site_url,
+  image: `/website-image.png`,
 };

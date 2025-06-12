@@ -14,6 +14,7 @@ export function constructMetadata({
   title = siteConfig.name,
   description = siteConfig.description,
   icons = "/favicon.ico",
+  image = siteConfig.image,
   noIndex = false,
 }: {
   title?: string;
@@ -44,6 +45,14 @@ export function constructMetadata({
       locale: "en_US",
       url: siteConfig.url,
       title,
+      images: [
+        {
+          url: `${siteConfig.url}${image}`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       description,
       siteName: title,
     },
